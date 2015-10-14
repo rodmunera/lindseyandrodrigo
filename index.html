@@ -188,12 +188,12 @@ Cocktails begin at 5 p.m. at <a href="http://www.hayadams.com" target="_blank">T
 						<h2>RSVP</h2>
 						<div id="RSVPSearchResults">
 							<p class="message"></p>
-							<!-- <form method="get" action="/rl/rsvp.cfc"> -->
-								<input type="hidden" name="method" value="searchRSVP" />
-								<input type="text" id="qString" name="q" value="" placeholder="Type guest name" />
+							<form method="get" action="#RSVP">
+								<!--<input type="hidden" name="method" value="searchRSVP" />-->
+								<input type="text" id="qString" value="" placeholder="Type guest name" />
 								<button type="submit">Search Guest List</button>
 								
-							<!-- </form> -->
+							</form>
 							<div id="RSVPWorkArea"></div>
 						</div>
 					</div>
